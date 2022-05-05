@@ -19,7 +19,7 @@ function compress(list) {
         }
         return arrSameNumbers;  
 };
-var a = 1;
+
 console.log(compress([1,1,1,1,1,0]));
 console.log(compress([0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1]));
 console.log(compress([0,0,0,3,1,1,1,1,4,1,1,0,0,1,1,1,1,0,1]));
